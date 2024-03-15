@@ -1,0 +1,9 @@
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  include(topo.php): failed to open stream: No such file or directory in /home/rdcon/public_html/novosite/formulario/contato.php on line 106
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  include(topo.php): failed to open stream: No such file or directory in /home/rdcon/public_html/novosite/formulario/contato.php on line 106
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'topo.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rdcon/public_html/novosite/formulario/contato.php on line 106
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  mysql_query(): Access denied for user 'rdcon'@'localhost' (using password: NO) in /home/rdcon/public_html/novosite/formulario/contato.php on line 120
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  mysql_query(): A link to the server could not be established in /home/rdcon/public_html/novosite/formulario/contato.php on line 120
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/rdcon/public_html/novosite/formulario/contato.php on line 121
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  include(rodape.php): failed to open stream: No such file or directory in /home/rdcon/public_html/novosite/formulario/contato.php on line 151
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  include(rodape.php): failed to open stream: No such file or directory in /home/rdcon/public_html/novosite/formulario/contato.php on line 151
+[28-Jan-2014 16:35:41 America/Sao_Paulo] PHP Warning:  include(): Failed opening 'rodape.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rdcon/public_html/novosite/formulario/contato.php on line 151

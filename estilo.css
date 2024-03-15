@@ -1,0 +1,907 @@
+
+/* CSS Document */
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding:0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.textopadrao{
+    font-size:14pt;
+}
+
+.textopadrao2{
+    font-size: 12pt;
+}
+
+
+.textopadrao-texto{
+    font-size: 16pt;
+    line-height:170%;
+}
+
+.semibold{
+    font-weight: 200 !important;
+}
+
+.titulopadrao{
+    font-size:35pt;
+}
+
+
+/* cores */
+
+
+.rosa{
+    color:#f78285;
+}
+
+.cinza{
+    color:#231f20;
+}
+
+.cinza2{
+    color:#333333;
+}
+
+.branco{
+    color:#fff;
+}
+
+.amarelo{
+    color: #f3e3ca;
+}
+
+.meiopersonalizado{
+    width: 1560px;
+}
+
+
+
+
+
+div#topofull{
+     position:fixed;
+    width:100%;
+    height:206px;
+    background: white;
+    border-top: 12px solid #001969;
+    z-index: 10;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.menutopo2{
+    height:62px;
+    background: #222;
+}
+
+
+div.menutopo{
+    height:144px;
+    background:white;
+
+}
+
+
+
+.espacotopo{
+    position: relative;
+    height: 206px;
+}
+
+
+/*.infotopo{
+    position: relative;
+    width:100%;
+    height: 15px;
+    top:11px;
+}*/
+
+ .redessociais{
+    position: relative;
+    float: left;
+    height: 34px;
+    overflow: hidden;
+    top:64px;
+}
+
+
+.redessociais img{
+    position: relative;
+    display: inline-block;
+    width:33px;
+    /*top:-3px;*/
+    height: 34px;
+    margin-right:3px;
+    transition-duration: .3s;
+}
+
+.redessociais img:hover{
+    opacity: .7;
+}
+
+.telefonetopo{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 12pt;
+    top:12px;
+    left:176px;   
+}
+
+.telefonetopo img{
+    position: relative;
+    top:7px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+
+.telefonetopo1{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 12pt;
+    top:12px;
+    /*left:176px; */  
+}
+
+.telefonetopo1 img{
+    position: relative;
+    top:25px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.btntopo{
+    position: relative;
+    float: right;
+    font-size: 9pt;
+    margin-top:67px;
+}
+
+.btntopo img{
+    position: relative;
+   top:5px;
+   margin-right:1px;
+}
+
+
+
+.divisormenutopo{
+    position: relative;
+    float: left;
+    width: 1px;
+    height: 18px;
+    margin-right:5px;
+    margin-left:5px;
+    top:16px;
+    background:white;
+}
+
+.logotopo{
+    position: relative;
+    /*float: left;*/
+    width: 292px;
+    height: 86px;
+    background: url(img/logotopo.png) top center no-repeat;
+    top:13px;
+}
+
+.past-main{
+    top: -110px;
+}
+
+.texto-rolar-past{
+    display: none;
+}
+
+
+.past-logo{
+    background-size:120px;
+    top:83px;
+}
+
+.btn-topo-past{
+    top:37px;
+}
+
+.telefone-topo-past{
+    top: 80px !important;
+    left: -164px;
+}
+
+.past-redesocial{
+    top:105px;
+    transform: scale(0.8);
+    -moz-transform: scale(0.8);
+}
+
+.sombratopo{
+    position:absolute;
+    width:100%;
+    height: 133px;
+    background: url(img/sombratopo.png) top center no-repeat;
+    top:215px;
+}
+
+
+
+/* fim topo */
+
+
+/* Inicio Rodapê */
+
+.rodapefull{
+    position: relative;
+    width: 100%;
+    height:205px;
+    border-top:5px solid #001969;
+    border-bottom:5px solid #222;
+}
+
+.logorodape{
+    position: relative;
+    width: 219px;
+    height:64px;
+    background: url(img/logorodape.png) top center no-repeat;
+    top:70px;
+}
+
+.rodapefull .redessociais{
+    position: relative;
+    top:30px;
+}
+
+.rodapefull .telefonetopo{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 12pt;
+    top:0px;
+    /*left:174px*/  
+}
+
+.rodapefull .telefonetopo img{
+    position: relative;
+    top:5px;
+    left:2px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.rodapefull .btntopo{
+    position: relative;
+    float: right;
+    margin-top:21px;
+}
+
+.rodapefull .btntopo img{
+    position: relative;
+   top:5px;
+   left:-5px;
+}
+
+
+/* fim rodopê */
+
+/* Inicio Midiakit */
+
+.shellmidiakit{
+    position: relative;
+    display: inline-block;
+    width: 820px;
+    height: 48px;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.shellmidiakit .titulo{
+    position: relative;
+    float: left;
+    max-width:570px;
+    height:48px;
+    color: black;
+    line-height: 48px;
+    background: white;
+    padding-right: 5px;
+    overflow: hidden;
+    z-index:2;
+}
+
+.shellmidiakit .pontilhado{
+    position: absolute;
+    left: 0px;
+    top:30px;
+    width:650px;
+    border-bottom: 2px dotted #3d3d3d;
+}
+
+.shellmidiakit .btn{
+    position: relative;
+    float: right;
+    width: 153px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background:#f78285;
+    border-radius: 15px;
+    font-size: 14pt;
+    text-align: center;
+    font-weight: bold;
+    transition-duration: .3s;
+}
+
+.shellmidiakit .btn:hover{
+    background: #e6007e;
+}
+
+
+
+.font18{
+    font-size:18pt;
+}
+
+.espacamentopersonal {
+    line-height: 200%;
+}
+
+.espacamentopersonal2 {
+    line-height:150%;
+}
+
+
+
+
+.fontepersonal {
+    font-size: 1.25em;
+}
+
+
+/* Fecha Midia Kit */
+
+/* loja */
+
+.btnwhats{
+    position: relative;
+    display: inline-block;
+    width: 453px;
+    height: 96px;
+    line-height: 96px;
+    border-radius: 50px;
+    background: #46c656;
+    color: white;
+    text-align: center;
+    font-size: 18pt;
+    transition-duration: .3s;
+}
+
+.btnwhats img {
+    position: relative;
+    display: inline-block;
+    margin-right: 7px;
+    width: 34px;
+    top: 8px;
+}
+
+.btnwhats:hover{
+    background:#231f20;
+}
+
+.imagem-loja{
+    /*left:155px;*/
+}
+
+.imagem-loja2{
+    left:-170px;
+}
+
+.imagem-loja-empresa{
+    /*left:206px;*/
+}
+
+.texto-empresa{
+    position: relative;
+    width: 563px;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+.logo-home{
+    position:absolute;
+    width: 197px;
+    height: 273px;
+    overflow: hidden;
+    top: -91px;
+    left:468px;
+    z-index:2;
+}
+
+.logo-home2{
+    left:650px;
+    top:-135px;
+}
+
+.logo-home img{
+    width: 249px;
+    height: 345px;
+    overflow: hidden;
+}
+
+.texto-index{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+/*.texto-loja{
+    height:280px;
+    overflow: hidden;
+}*/
+
+
+/* fim loja */
+
+
+/* Inicio Produtos */
+
+.fundo-banner{
+    position: relative;
+    width:100%;
+    height: 361px;
+    overflow: hidden;
+}
+
+
+.banner-produto{
+  position:relative;
+  width:100%;
+  height: 361px;
+  overflow: hidden;
+}
+
+.btn-produtos{
+    position:relative;
+    width:353px;
+    height:49px;
+    line-height: 49px;
+    overflow:hidden;
+    text-align: center;
+    background: #f3e3ca;
+}
+
+.botao-sobre-imagem {
+    position: relative;
+    background-color: #f3e3ca; /* Cor de fundo desejada */
+    color: #000000;
+    /*padding: 10px 20px;*/
+    /*margin-left:100px;*/
+    top:-90px;  
+    text-decoration: none;
+    width: 353px; /* Largura desejada */
+    height: 49px; /* Altura desejada */
+    text-align: center;
+    line-height: 49px;
+    z-index: 1; /* Garante que o botão esteja acima da imagem */
+    display: inline-block; /* Para ocupar apenas o espaço necessário */
+    transition-duration: .3s;
+}
+
+.botao-sobre-imagem:hover{
+    background: #231f20;
+    color: #e7edf0;
+}
+
+.botao-sobre-imagem img{
+    position: relative;
+    margin-right: 5px;
+    top:8px;
+}
+
+
+
+
+
+
+/* Fecha Produtos */
+
+
+/* Inicio Contato */
+
+.telefonecontato img{
+    position: relative;
+    top:9px;
+}
+
+
+/* Fecha contato */
+
+
+/* Home1 */
+
+.home1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.fundo-cinza-home{
+    position: relative;
+    width: 100%;
+    height: 555px;
+    background: #f4f4f4;
+}
+
+.fontepersonal2{
+    font-size:2.4em;
+}
+
+.alinharhomedireito{
+    text-align: right;
+}
+
+.uppercase{
+    transform:uppercase;
+}
+
+.alinhamentohome1{
+    margin-left:288px;
+    text-align: right;
+    margin-top:-105px;
+}
+
+.btn-home1{
+    position: relative;
+    width: 553px;
+    height: 61px;
+    background:#f3e3ca;
+    line-height: 61px;
+    text-align: center;
+    transition-duration: .3s;
+}
+
+
+.btn-home1:hover{
+    background: #231f20;
+    color: #ffffff;
+}
+
+.alinhartitulo{
+    margin-left:100px;
+}
+
+
+
+
+/* Fecha home1 */
+
+
+.boxlateral{
+    position: fixed;
+    right:-170px;
+    width:247px;
+    overflow: hidden;
+    height: 67px;
+    line-height: 67px;
+    transition-duration: .3s;
+    z-index:10;
+    background: #2CCD47;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.boxlateral:hover{
+    right:0px;
+}
+
+.boxlateral img{
+    float: left;
+    padding:12px 20px;
+    padding-right:15px;
+}
+
+.boxlateral h4{
+    position: relative;
+    line-height: 67px;
+}
+
+.boxsobe{
+    position:fixed;
+    width: 80px;
+    height:80px;
+    background:url(img/voltartopo.png) top center no-repeat; 
+    bottom:20px;
+    right:20px;
+    transition-duration: 0.3s;
+    z-index:11;
+    display: none;
+}
+
+.boxsobe:hover{
+    opacity: 0.7;
+}
+
+.past-boxsobe{
+    display: block;
+}
+
+
+.shelldownload img{
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    transition-duration: .3s;
+}
+
+.shelldownload{
+    position: relative;
+    float: left;
+    padding:0px 15px;
+    font-size: 14pt;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    color: #1d1717;
+    transition-duration: .3s;
+}
+
+.shelldonwload:hover{
+    background: #004823;
+    color: white;
+}
+
+.shelldownload:hover img{
+    filter: brightness(0) invert(1);
+}
+
+.shellpergunta{
+    position: relative;
+    float: left;
+    width: 1920px;
+    margin-left: -347px;
+    background: white;
+}
+
+.shellpergunta2{
+    background: #e7edf0;
+}
+
+.shellpergunta .titulo{
+    position: relative;
+    width: 1150px;
+    padding-left: 75px;
+    height: 54px;
+    line-height: 48px;
+    overflow: hidden;
+    background: url(img/duvidas1.png) left center no-repeat;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.shellpergunta .current{
+    background: url(img/duvidas2.png) left center no-repeat;   
+}
+
+.shellpergunta .pane{
+    width:1150px;
+    margin-left: 75px;
+    padding-top: 10px;
+}
+
+
+.fundo-colorido1 {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background-color: #46c656;
+}   
+.fundo-colorido2 {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background-color: rgb(7, 7, 61);
+}   
+
+
+
+   
+
+    .vermelho{
+        color:red;
+    }
+    
+
+
+
+
+/* Inicio slide */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .primeiro-slide {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(235,0,0)), url(assets/img/slide/bg-slide-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.slides-destaque .slide{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 110vh;
+  padding: 0 15rem;
+}
+
+.slides-destaque .slide .col-1{
+    flex: 1 1 20rem;
+}
+
+.slides-destaque .slide .col-1 h4{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 3rem;
+}
+
+.slides-destaque .slide .col-1 h1{
+    font-size: 3.2rem;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.slides-destaque .slide .col-1 p{
+   font-size: 1.4rem;
+   color: white;
+   letter-spacing: 2px;
+   padding-top: 4rem;
+}
+
+
+.lojasBtn{
+    /*display: flex;*/
+    width:200px;
+    height:60px;
+    text-align: center;
+    line-height:60px;
+    flex-wrap: wrap;
+    gap: 1;
+    color:#d117ff;
+    opacity: .6;
+   /* padding-top: 4rem;*/
+    background: white;
+    transition-duration: .3s;
+}
+
+.lojasbtn2{
+    margin-left:-250px;
+}
+
+.lojasBtn:hover{
+  color: white;
+  background-color:#d117ff ;
+}   
+
+.s10{
+    
+    left:-300px;
+}
+
+/*.lojasBtn a{
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    position: relative;
+    padding: 1.8rem 2.8rem 1.8rem 2rem;
+    transition: 0.5s ease;
+    cursor: pointer;
+  
+}*/
+
+
+
+/*.lojasBtn a i{
+    font-size: 2.5rem;
+    position:absolute;
+    top:33%;
+    right: 1rem;
+    transform: translate(-40%);
+}   */
+
+.slides-destaque .slide .col-2{
+    flex: 1 1 40rem;
+    padding: 3rem;
+}
+
+.slides-destaque .slide .col-2 img{
+   width: 70%;
+   height: auto;
+}
+
+.slide-detaque .swiper [class^="swiper-button-"]{
+   color: white;
+   background-color: rgba(171,13,211,0.5);
+   padding: 2.5rem;
+
+}
+
+
+
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*background: #fff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+/* Fecha slide */
+
+
+
+
+
+
+/*Deixar no final do arquivo */
+.conteudocelular{
+        width:100%;
+        overflow:hidden;
+    }
+.nornone{
+    display: none;
+}
+@media screen and (max-width:1370px){
+    
+    .conteudocelular{
+        width:100%;
+        overflow:hidden !important;
+    }
+     .shellfoto100, .shellfoto100 .foto{
+        height:200px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    
+    .conteudocelular{
+        width:1100px;
+        overflow:hidden !important;
+    }
+    .shellfoto100, .shellfoto100 .foto{
+        height:150px;
+    }
+}
+
+

@@ -1,0 +1,1291 @@
+/*GRIDS*/
+
+html, body{
+	font-size: 100%; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    
+	
+}
+
+.nornone{
+    display: none;
+}
+
+body{
+	width:100%;
+	font-family: Arial, Verdana;
+	background:white;
+	letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
+    *letter-spacing: normal; /* reset IE < 8 */
+    *word-spacing: -0.43em; /* IE < 8: collapse white-space between units */
+    text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    /* IE10 uses display: flexbox */
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+    overflow-x:hidden;
+    background: url(https://www.cosmeticosviver.com.br/site/img/background.jpg);
+}
+
+.meio {
+	position:relative;
+	width:1225px;
+	margin-left:auto;
+	margin-right:auto;	
+	
+}
+
+.esquerda{
+	position:relative;
+	float:left;	
+}
+
+.direita{
+	position:relative;
+	float:right;	
+}
+
+.centro{
+  text-align:center;
+}
+
+div{
+	
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+    
+    
+}
+
+
+.coluna5{
+	width: 17.5%;
+    
+}
+
+.coluna3 {
+    width: 43%;
+}
+
+
+.coluna4 {
+    width: 22.5%;
+    
+}
+
+.coluna2 {
+    width: 47.7%;
+}
+
+
+.w40 {
+    width: 37.5%;
+}
+
+
+.w60 {
+    width: 58%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.link{
+  transition-duration:.3s;
+}
+
+.link:hover{
+  text-decoration:underline;
+}
+
+.fotodiv{
+	width:90%;
+	margin:5%;
+}
+
+.iconmais{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:url(https://www.cosmeticosviver.com.br/site/img/iconmais.png), url(https://www.cosmeticosviver.com.br/site/img/iconmaisback.png);
+  background-position: center, center;
+  background-repeat: no-repeat, repeat;
+  transition-duration:.3s;
+  opacity:0;
+  top:0;
+  z-index:9;
+}
+
+.iconmais:hover{
+  opacity:.9;
+}
+
+.iconmaistexto{
+  position: absolute;
+    left:0;
+    bottom:0;
+    margin-bottom:-200px;
+    width:100%;
+    height:auto;
+    color: white;
+    text-align: center;
+    padding:20px 0px;
+    background: #1753CD;
+    transition-duration: .3s;
+}
+
+.foto:hover .iconmaistexto{
+  margin-bottom:0px;
+}
+
+
+/*Títutlo e texto padrão*/
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+h4{
+  font-size: 1.33em;
+    margin: 1em 0;
+}
+
+h5{
+  font-size: 1.17em;
+    margin: 1em 0;
+}
+
+.tamanhoh1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.tamanhoh2 {
+    font-size: 1.7em;
+    margin: 0.83em 0;
+}
+
+.tamanhoh3 {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.tamanhoh4{
+  font-size: 1.33em;
+    margin: 1em 0;
+}
+
+.tamanhoh5{
+  font-size: 1.17em;
+    margin: 1em 0;
+}
+
+p, .textopadrao {
+    font-size: 12pt;
+    margin: 0.87em 0;
+}
+
+.textopadrao2{
+    font-size: 11pt;
+    margin: 0.77em 0;
+}
+
+b,
+strong, .bold {
+    font-weight: 700;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+em, .italico{
+	font-style:italic;
+}
+
+
+/*Menus Topo base*/
+
+
+ul.menutopo{
+	position:relative;
+	top:10px;
+  float:right;
+	height:57px;
+	display: inline-block;
+	
+}
+
+li.menutopo{
+	display: inline-block;
+	float:left;
+	color:white;
+    font-weight: bold;
+	font-size:12pt;
+	padding: 13px 52px;
+	opacity:1;
+	transition-duration: 0.3s;
+}
+
+li.menutoporodape{
+	display: inline-block;
+	float:left;
+	color:#222;
+    font-weight: bold;
+	font-size:14pt;
+	padding: 5px 70px;
+	opacity:1;
+	transition-duration: 0.3s;
+}
+
+li.menutopo:hover{
+	/*background:#5F4234;*/
+    border-bottom:7px solid white;
+	text-decoration:none;
+	transition-duration: 0.3s;
+}
+
+
+ul.menurodape{
+  position:relative;
+  top:0px;
+  height:57px;
+  display: inline-block;
+  
+}
+
+li.menurodape{
+  
+  display: inline-block;
+  float:left;
+  color:white;
+  font-size:12pt;
+  padding: 10px 12px;
+  opacity:1;
+  transition-duration: 0.3s;
+}
+
+li.menurodape:hover{
+  
+  text-decoration:none;
+  transition-duration: 0.3s;
+}
+
+/*CSS MENU*/
+
+.cssmenu ul{
+  position: absolute;
+  width:246px;
+  background:#f78285;
+  z-index:10;
+  margin-top:17px;
+  padding:20px 0px;
+  border-radius:15px;
+  /*border:4px solid #F5821F;*/
+  margin-left:-78px;
+  transition-duration:.3s;
+  opacity:0;
+  visibility:hidden;
+}
+
+.dottedtop{
+  border-top:1px dotted #4e4e4e;
+}
+
+.setlate2{
+  margin-left:-24px !important;
+}
+
+.cssmenu:hover ul{
+  opacity:1;
+  visibility:visible;
+}
+
+.cssmenu a{
+  color:inherit;
+}
+
+.pinocimacssmenu{
+  position: absolute;
+  width:120px;
+  height:15px;
+  background: url(https://www.cosmeticosviver.com.br/site/img/pinocimacssmenu.png) top center no-repeat;
+  top:-15px;
+}
+
+.cssmenu ul li {
+  position: relative;
+  float:left;
+  text-align: center;
+  color:#4f4f4f;
+  width:236px;
+  font-weight:bold;
+  font-size:12pt;
+  padding:15px 5px;
+  /*margin-right:-78px;*/
+ /* border-bottom: 1px dotted #4e4e4e;*/
+  transition-duration:.3s;
+}
+
+.cssmenu ul li:hover {
+
+  background: #f5b3a8;
+}
+
+li.submenu ul.sub2{
+  position: absolute;
+  width:172px;
+  background: #FFC62B;
+  z-index:10;
+  margin-top:-33px;
+  margin-left:152px;
+  transition-duration:.3s;
+  opacity:0;
+  visibility:hidden;
+
+}
+
+li.submenu:hover ul.sub2{
+  opacity:1;
+  visibility:visible;
+}
+
+/*base das galerias */ 
+
+.shelldepoimentos .shellfotogaleria{
+    float: none;
+    margin: 0px;
+    display: inline-block;
+}
+
+.shelldepoimentos .textodepoimento{
+    padding:0px 180px;
+}
+
+.aspa1{
+    position: relative;
+    float: left;
+    width: 111px;
+    margin-top: -30px;
+    margin-left: -130px;
+    height: 93px;
+    background: url(https://www.cosmeticosviver.com.br/site/img/aspa1.png) top center no-repeat;
+}
+
+.aspa2{
+    position: relative;
+    float: right;
+    margin-top: -20px;
+    margin-right: -130px;
+    width: 111px;
+    height: 93px;
+    background: url(https://www.cosmeticosviver.com.br/site/img/aspa2.png) top center no-repeat;
+}
+
+.shellproduto{
+    position: relative;
+    float: left;
+    width: 229px;
+    height: 240px;
+    margin-bottom:30px;
+    margin-left:17px;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+
+.shellproduto .foto{
+    position: relative;
+    float: left;
+    width: 229px;
+    height: 172px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.shellproduto .titulo{
+    height: 53px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.shellproduto:hover .iconmais{
+    opacity: .9;
+}
+
+
+.shellfoto100{
+    position: relative;
+    float:left;
+    width:25%;
+    height:242px;
+    overflow:hidden;
+    margin-left:0px;
+    margin-bottom:0px;
+}
+
+.shellfoto100 .foto{
+    width:100%;
+    height:242px;
+    overflow:hidden;
+}
+
+.shellfoto{
+    position: relative;
+    float:right;
+    width:600px;
+    height:533px;
+    border:10px solid white;
+    margin-right:20px;
+    margin-bottom:10px;
+    transition-duration: .3s;
+}
+
+.shellfoto .foto{
+    width: 600px;
+    height:533px;
+    overflow:hidden;
+}
+
+.foto img{
+    width:100%;
+}
+
+.shellfoto .sombra{
+    position: relative;
+    width:100%;
+    height: 35px;
+    top:9px;
+    background: url(https://www.cosmeticosviver.com.br/site/img/sombrafoto.png) top center no-repeat;
+}
+
+.shellfoto:hover{
+    border:10px solid #FD2015;
+}
+
+
+
+.shellfotogaleria{
+    position: relative;
+    float:left;
+    width:210px;
+    height:210px;
+    border-radius:100%;
+    transition-duration: .3s;
+    margin-left:25px;
+    margin-bottom:25px;
+    border:5px solid #e6007e;
+}
+
+.shellfotogaleria .foto{
+    width:200px;
+    height:200px;
+    margin:5px;
+    border-radius:100%;
+    overflow:hidden;
+    transition-duration: .3s;
+}
+
+.shellfotogaleria:hover{
+    opacity:.8;
+}
+
+
+.shellfotogaleria .sombra{
+    position: relative;
+    width:100%;
+    height: 16px;
+    top:6px;
+    background: url(https://www.cosmeticosviver.com.br/site/img/sombragaleria.png) top center no-repeat;
+}
+
+
+
+.shellfotoround{
+    position: relative;
+    float: left;
+    width: 176px;
+    height: 176px;
+    border:2px solid #9B1B2B;
+    background: white;
+    border-radius: 100%;
+    margin-right:60px;
+    margin-bottom:20px;
+
+}
+
+.shellfotoround .foto{
+    position: relative;
+    float: left;
+    width: 156px;
+    height: 156px;
+    margin:5px;
+    border:5px solid #9B1B2B;
+    background: #9B1B2B;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.shellfotoround img{
+    width:100%;
+    transform: scale(1.4);
+    -moz-transform: scale(1.4);
+}
+
+.shellvideo{
+    position: relative;
+    float:left;
+    width: 854px;
+    height: 480px;
+    /*background: url(img/shellvideo.png) top center no-repeat;*/
+    overflow: hidden;
+    margin-left:172px;
+    border:5px solid #ea3e6b;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius:20px;
+}
+
+.shellvideo iframe{
+    position: relative;
+    float:left;
+    margin:10px;
+    border-radius:20px;
+}
+
+.shellvideo .sombra{
+    position: relative;
+    width:100%;
+    height: 37px;
+    top:15px;
+    background: url(https://www.cosmeticosviver.com.br/site/img/sombravideo.png) top center no-repeat;
+}
+
+.shellvideo:hover{
+    border:5px solid #707272;
+}
+
+/*base do contato */
+
+input, textarea{
+  outline: none;
+}
+
+input[type=text].contato,input[type=password].contato, input[type=email].contato{
+  padding:10px;
+  
+  background: white;
+  border:1px solid #D5D5D5;
+  color:#2C2C2C;
+  margin-bottom:15px;
+}
+
+input.contato{
+  position: relative;
+  float:left;
+  width:554px;
+}
+
+input.contato2{
+  position: relative;
+  float:left;
+  width:261px;
+ padding:10px;
+  background: white;
+  border:1px solid #D5D5D5;
+  color:#2C2C2C;
+  
+  margin-bottom:15px;
+}
+
+textarea.contato{
+  position: relative;
+  width:554px;
+  min-width:554px;
+  max-width:554px;
+  background: white;
+  border:1px solid #D5D5D5;
+  color:#2C2C2C;
+  height:120px;
+  min-height:120px;
+  max-height:120px;
+  padding:10px;
+  
+}
+
+select.contato2{
+  position: relative;
+  float:left;
+  border-radius:12px;
+  color:#5F4234;
+  width:229px;
+ padding:10px;
+  border:1px inset #DADADA;
+  margin-bottom:15px;
+   -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+     background: url(https://www.cosmeticosviver.com.br/site/img/bulletselect.png) no-repeat 97% 50% #EBEBEB;
+}
+
+
+input#btenviar {
+  width:575px;
+  height:60px;
+  padding:0px;
+  background:#f3e3ca;
+  font-size: 14pt;
+  /*border-radius:50px;*/
+  border:0px;
+  cursor: pointer;
+  color:#000000;
+  font-weight:bold;
+  transition-duration:.3s;
+  opacity: 1;
+}
+
+input#btenviar:hover {
+  background:#2C2C2C;
+  color:white;
+
+  }
+
+
+::-webkit-input-placeholder {
+   color: #2C2C2C;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #2C2C2C;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #2C2C2C;  
+}
+
+:-ms-input-placeholder {  
+   color: #2C2C2C;  
+}
+
+.needsfilled {
+	background-color:red !important;
+	color:white !important;
+}
+
+
+.map-iframe iframe {
+    position: relative;
+    float: left;
+    margin-left:0px;
+    width:100%;
+    margin-bottom: -101px;
+}
+
+.nomargin{
+  margin:0px;
+}
+
+/*SETOR DO ORCAMENTO */
+
+.shellorcamento {
+    position: relative;
+    width: 100%;
+    
+    min-height: 70px;
+    margin: 20px 0px;
+}
+
+.shellorcamento input[type=checkbox] {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 28px;
+}
+
+.imgorcamento {
+    position: relative;
+    float: left;
+    width: 94px;
+    height: 76px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.imgorcamento img{
+  width:100%;
+}
+
+.tituloorcamento{
+    float: left;
+    width: 742px;
+}
+
+.divisorconteudo{
+  width:100%;
+  border-bottom:1px solid #D3D3D3;
+}
+
+.shellorcamento input[type=text] {
+    position: relative;
+    float: right;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 18px;
+    border:1px solid #555555;
+    background:white;
+    text-align:center;
+    padding:0px;
+    color:#545454;
+}
+
+.botaoexcluirorcamento {
+    position: relative;
+    display: inline-block;
+    width: 247px;
+    height: 43px;
+    margin-right:60px;
+    padding-left: 44px;
+    background: url(https://www.cosmeticosviver.com.br/site/img/icon-deletar.png) left center no-repeat #ee3136;
+    transition-duration: .3s;
+    border: 0px;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    cursor: pointer !important;
+}
+
+.botaoexcluirorcamento:hover{
+  background: url(https://www.cosmeticosviver.com.br/site/img/icon-deletar.png) left center no-repeat #af181b;
+}
+
+.botaoatualizarorcamento {
+    position: relative;
+    display: inline-block;
+    width: 246px;
+    height: 43px;
+    margin-left:60px;
+    padding-right: 38px;
+    color: white;
+    background: url(https://www.cosmeticosviver.com.br/site/img/icon-atualizar.png) right center no-repeat #ee3136;
+    transition-duration: .3s;
+    border: 0px;
+    text-align: center;
+    font-size: 12pt;
+    cursor: pointer !important;
+}
+
+.botaoatualizarorcamento:hover{
+  background: url(https://www.cosmeticosviver.com.br/site/img/icon-atualizar.png) right center no-repeat #af181b;
+}
+
+.btnincluiroutros {
+    position: relative;
+    display: inline-block;
+    width: 483px;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 38px;
+    color: white;
+    background: url(https://www.cosmeticosviver.com.br/site/img/icon-adicionar.png) left center no-repeat #4141a0;
+    transition-duration: .3s;
+    border: 0px;
+    text-align: center;
+    cursor: pointer !important;
+}
+
+.btnincluiroutros:hover{
+  background: url(https://www.cosmeticosviver.com.br/site/img/icon-adicionar.png) left center no-repeat #2c2c6c;
+}
+
+
+.botaoproximaorcamento {
+    position: relative;
+    display: inline-block;
+    width: 483px;
+    height: 43px;
+    line-height: 43px;
+    padding-right: 10px;
+    color: white;
+    background: url(https://www.cosmeticosviver.com.br/site/img/botaoproximaorcamento.png) right center no-repeat #6BAC5C;
+    transition-duration: .3s;
+    border: 0px;
+    text-align: center;
+    cursor: pointer !important;
+}
+
+.botaoproximaorcamento:hover{
+  background: url(https://www.cosmeticosviver.com.br/site/img/botaoproximaorcamento.png) right center no-repeat #4B8F3B;
+}
+
+.contagemorcamento {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:15px;
+    text-align: center;
+    width: 50px;
+    overflow: hidden;
+}
+
+.setorsolicitaorcamento {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    background: #EBEBEB;
+}
+
+input#btenviarorcafinal {
+    position: relative;
+    display: inline-block;
+    width: 283px;
+    height: 43px;
+    line-height: 43px;
+    padding-right: 30px;
+    color: white;
+    background: url(https://www.cosmeticosviver.com.br/site/img/botaosolicitarorcamento.png) right center no-repeat #6BAC5C;
+    transition-duration: .3s;
+    border: 0px;
+    text-align: center;
+    cursor: pointer !important;
+}
+
+input#btenviarorcafinal:hover{
+  background: url(https://www.cosmeticosviver.com.br/site/img/botaosolicitarorcamento.png) right center no-repeat #4B8F3B;
+}
+
+
+input.orcafinal {
+    position: relative;
+    float: left;
+    width: 280px;
+    height: 21px;
+    padding: 5px;
+    margin-left: 31px;
+    margin-bottom: 10px;
+    border: 1px solid #666666;
+    background: white;
+}
+
+textarea.orcafinal {
+    position: relative;
+    float: left;
+    width: 926px;
+    min-width: 926px;
+    max-width: 926px;
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+    padding: 5px;
+    margin-left: 31px;
+    margin-bottom: 10px;
+    border: 1px solid #666666;
+    background: white;
+}    
+
+#mscs1{
+    background: url(https://www.cosmeticosviver.com.br/site/http://www.cosmeticosviver.com.br/site/img/mainac1.png);
+    background-size: 40px, 100%;
+    background-repeat: no-repeat, repeat;
+    background-position: right center, center;
+}
+
+.fundotangelo {
+    position: relative;
+    width: 100%;
+    height: 33px;
+    background: white;
+    overflow: hidden;
+}
+
+.tangelo{
+    position: relative;
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    overflow: hidden;
+    background: url(https://www.cosmeticosviver.com.br/site/img/tangelo.png) top center no-repeat;
+    transition-duration: .3s;
+    opacity: .3;   
+    margin-top:13px;
+}
+
+.tangelo:hover{
+    opacity: 1;
+}
+
+.italico{
+  font-style: italic;
+}
+
+
+/* estados do mapa */
+
+
+#representantes-mapa{
+    width: 581px; height: 521px;
+    float: left; position: relative;
+    background:url(https://www.cosmeticosviver.com.br/site/estado/img/representantes-mapa2.png) no-repeat top left;
+    padding:12px 11px;
+    z-index:2;
+}
+
+
+#area_vantagens4{
+    width: 100%; height: auto; float: left; display: inherit;
+    overflow: hidden;
+}
+
+
+
+#mapagrande{
+    width: 526px; height: 526px; float: left; display: block;
+    
+}
+
+
+.estados{
+    display: inline;
+    -moz-opacity: 0.0;
+-khtml-opacity: 0.0;
+opacity: 0.0;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=0);
+filter:alpha(opacity=0);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
+.estados:hover{
+    -moz-opacity: 0.5;
+-khtml-opacity: 0.5;
+opacity: 0.5;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50);
+filter:alpha(opacity=50);
+
+}
+
+
+
+
+
+
+#az{
+    position: absolute; width: 240px; height: 143px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/az.png) no-repeat center; margin-top:40px;
+    margin-left: 4px;
+}
+
+#pa{
+    position: absolute; width: 185px; height: 136px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/pa.png) no-repeat center; margin-top:36px;
+    margin-left: 206px;
+}
+
+#rr{
+    position: absolute; width: 86px; height: 77px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/rr.png) no-repeat center; 
+    margin-left: 121px; margin-top: 3px;
+}
+
+
+#am{
+    position: absolute; width: 59px; height: 62px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/am.png) no-repeat center; 
+    margin-left: 274px; margin-top: 7px;
+}
+
+#ac{
+    position: absolute; width: 103px; height: 39px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/ac.png) no-repeat center; 
+    margin-left: 3px; margin-top: 163px;
+}
+
+
+
+#ro{
+    position: absolute; width: 101px; height: 63px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/ro.png) no-repeat center; 
+    margin-left: 106px; margin-top: 158px;
+}
+
+
+
+#mt{
+    position: absolute; width: 158px; height: 134px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/mt.png) no-repeat center; 
+    margin-left: 182px; margin-top: 141px;
+}
+
+
+#ms{
+    position: absolute; width: 100px; height: 86px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/ms.png) no-repeat center; 
+    margin-left: 237px; margin-top: 263px;
+}
+
+
+#pr{
+    position: absolute; width: 84px; height: 53px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/pr.png) no-repeat center; 
+    margin-left: 293px; margin-top: 328px; z-index: 7362238;
+}
+
+#sc{
+    position: absolute; width: 71px; height: 44px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/sc.png) no-repeat center; 
+    margin-left: 300px; margin-top: 371px;
+}
+
+#rs{
+    position: absolute; width: 98px; height: 83px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/rs.png) no-repeat center; 
+    margin-left: 256px; margin-top:388px;
+}
+
+
+
+#sp{
+    position: absolute; width: 113px; height: 66px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/sp.png) no-repeat center; 
+    margin-left:310px; margin-top: 294px; z-index:75000;
+}
+
+
+#go{
+    position: absolute; width: 100px; height: 86px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/go.png) no-repeat center; 
+    margin-left:304px; margin-top: 203px; z-index: 31;
+}
+
+
+
+#mg{
+    position: absolute; width: 151px; height: 108px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/mg.png) no-repeat center; 
+    margin-left:335px; margin-top: 226px; z-index: 30;
+}
+
+#to{
+    position: absolute; width: 67px; height: 101px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/to.png) no-repeat center; 
+    margin-left:335px; margin-top: 114px;
+}
+
+
+#ma{
+    position: absolute; width: 94px; height: 111px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/ma.png) no-repeat center; 
+    margin-left:362px; margin-top: 66px;
+}
+
+
+#pi{
+    position: absolute; width: 75px; height: 95px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/pi.png) no-repeat center; 
+    margin-left:402px; margin-top: 87px;
+}
+
+
+
+#ba{
+    position: absolute; width: 127px; height: 122px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/ba.png) no-repeat center; 
+    margin-left:392px; margin-top: 156px;
+    z-index: 25;
+}
+
+
+
+#rj{
+    position: absolute; width: 51px; height: 31px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/rj.png) no-repeat center; 
+    margin-left:420px; margin-top: 307px; z-index: 3333;
+}
+
+
+
+#es{
+    position: absolute; width: 32px; height: 44px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/es.png) no-repeat center; 
+    margin-left:460px; margin-top: 271px; z-index: 33;
+}
+
+
+#ce{
+    position: absolute; width: 56px; height: 60px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/ce.png) no-repeat center; 
+    margin-left:461px; margin-top: 87px;
+}
+
+#rn{
+    position: absolute; width: 50px; height: 29px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/rn.png) no-repeat center; 
+    margin-left:503px; margin-top: 110px;
+}
+
+
+#pb{
+    position: absolute; width: 53px; height: 24px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/pb.png) no-repeat center; 
+    margin-left:503px; margin-top: 129px;
+}
+
+
+
+#pe{
+    position: absolute; width: 90px; height: 23px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/pe.png) no-repeat center; 
+    margin-left:466px; margin-top: 143px;
+}
+
+
+#al{
+    position: absolute; width: 41px; height: 19px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/al.png) no-repeat center; 
+    margin-left:511px; margin-top: 162px;
+}
+
+
+#se{
+    position: absolute; width: 24px; height: 26px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/se.png) no-repeat center; 
+    margin-left:512px; margin-top: 170px;
+}
+
+
+#df{
+    position: absolute; width: 14px; height: 10px; float: left;
+    background: url(https://www.cosmeticosviver.com.br/site/estado/img/df.png) no-repeat center; 
+    margin-left:372px; margin-top: 227px;
+    z-index:200;
+}
+
+
+.unidadeladomapa{
+    position: absolute;
+    right:-40px;
+    width: 654px;
+    height: 500px;
+    background: url(https://www.cosmeticosviver.com.br/site/img/unidadeladomapa.png) top center no-repeat;
+    z-index:1;
+}
+
+.unidadefrase1{
+    position: relative;
+    float: left;
+    margin-left:200px;
+    margin-top:90px;
+}
+
+.unidadefrase2{
+    position: relative;
+    float: left;
+    margin-left:240px;
+    margin-top:80px;
+}
+
+.titulorepresentante{
+    border-left: 4px solid #1566C2;
+    margin-left:10px;
+}
+
+.titulorepresentante h3{
+    font-size: 2em;
+}
+
+.shellunidade{
+    position: relative;
+    float: left;
+    width:46%;
+    height: 148px;
+    margin-left:20px;
+    overflow: hidden;
+    margin-bottom:20px;
+    top:0px;
+    padding:10px;
+    color: #282828;
+    border-bottom: 2px dotted #282828;
+    transition-duration: .3s;
+    cursor: default;
+    font-size:11pt;
+}
+
+.shellunidade:hover{
+    background: #C9EEF9;
+    color:#1566C2;
+    top:-8px;
+}
+
+.shellunidade .fotomini{
+    position: relative;
+    float: left;
+    width:90px;
+    height: 130px;
+    border: 5px solid white;
+    overflow: hidden;
+    margin-right: 15px;
+    transition-duration: .3s;
+}
+
+.shellunidade:hover .fotomini{
+    border: 5px solid #1566C2;
+}
+
+.shellunidade .fotomini img{
+    width:100%;
+}
+
+.formbuscaunidade{
+    position: relative;
+    
+}
+
+input.buscaunidade{
+    position: relative;
+    width:828px;
+    font-size:12pt;
+    height:20px;
+    padding:10px;
+    padding-right: 160px;
+    color:#8da1cf;
+    background: white;
+    border:1px solid #1566C2;
+}
+
+.btnbuscaunidade{
+    position: absolute;
+    border:0px;
+    top:1px; right:1px;
+    font-size:14pt;
+    height:40px;
+    font-weight: bold;
+    width:150px;
+    background: white;
+    color:#3d5db1;
+    transition-duration: .3s;
+    cursor:pointer;
+}
+
+.btnbuscaunidade:hover{
+    background: #3d5db1;
+    color:white;
+}
